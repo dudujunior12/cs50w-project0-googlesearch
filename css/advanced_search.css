@@ -1,0 +1,91 @@
+.title{
+	margin-top: 1%;
+	font-size: 20px;
+	border-bottom: 1px solid #dadce0;
+	padding-left: 2.5%;
+	width: 97.5%;
+	color: red;
+}
+
+.center-container-advanced-search{
+	width: 97.5%;
+	height: 80%;
+	margin-top: 2%;
+	margin-left: 2.5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.title-search-form{
+	display: flex;
+	width: 100%;
+}
+
+.title-left{
+	width: 10%;
+	font-size: 16px;
+}
+
+.title-right{
+	margin-top: 20px;
+	width: 20%;
+	padding-left: 28%;
+	font-size: 14px;
+	font-weight: 700;
+	color: #777;
+}
+
+.advanced-search-form{
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+}
+
+.input-container{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+
+.advanced-search-form input{
+	height: 20px;
+	margin-top: 10px;
+}
+
+.p-left{
+	width: 12%;
+	font-size: 13px;
+}
+
+.advanced-search-form div input{
+	width: 40%;
+}
+
+.p-right{
+	width: 40%;
+	margin-right: 5%;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.btn-container{
+	margin-top: 0.7%;
+	width: 37.7%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.btn-advanced{
+	width: 16%;
+	padding: 8px 0;
+	font-size: 11px;
+	color: white;
+	background-color: #3079ed;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+}

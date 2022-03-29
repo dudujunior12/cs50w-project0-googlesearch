@@ -1,0 +1,82 @@
+/* IMAGE SEARCH */
+
+/* GOOGLE IMAGES LOGO */
+.google-images-logo-container{
+	max-height: 92px;
+    position: relative;
+}
+
+.google-images-logo{
+	color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 228px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+.google-images-logo-container img{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+/* PHOTO ICON AND SEARCH BLUE */
+
+.google-images-search-container{
+	height: 100%;
+	margin-top: 1%;
+	width: 30%;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	padding: 6px 10px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.google-images-search-container:hover{
+	background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.google-images-search-container input{
+	height: 100%;
+	outline: none;
+	width: 95%;
+	border-left: none;
+	border: none;
+}
+
+.google-images-search-icon{
+	display: flex;
+	padding-top: 9px;
+	width: 6%;
+	height: 100%;
+	border-right: none;
+	margin-left: 5px;
+}
+
+.search-camera{
+	margin-top: 6px;
+	width: 24px;
+	height: 24px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.search-blue{
+	margin-top: 6px;
+	fill: #4285f4;;
+	width: 24px;
+	height: 24px;
+	padding-right: 4px;
+}
+
+.invisible{
+	display: none;
+}
